@@ -1,0 +1,36 @@
+🌳 Decision Tree & 🌲 Random Forest
+They can be used for both Classification and Regression.
+But how they work internally changes depending on the type of problem:
+When used for Regression:
+Goal: Predict a continuous value (like price, temperature, etc.)
+
+How it works:
+
+The tree splits the data to minimize Mean Squared Error (MSE) or Mean Absolute Error (MAE).
+
+Each leaf node returns the average value of the target in that leaf.
+
+Examples:
+
+Predicting house prices
+
+Predicting gold prices
+
+Predicting temperature, sales, etc.
+When used for Classification:
+Goal: Predict a category/class (like spam/ham, yes/no, type A/B/C).
+
+How it works:
+
+The tree splits the data to increase purity (e.g., using Gini Index or Entropy).
+
+Each leaf node returns the most common class among its samples.
+
+Examples:
+
+Email spam detection
+
+Predicting churn (yes/no)
+
+Disease classification (Healthy/Sick)
+
