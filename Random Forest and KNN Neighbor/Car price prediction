@@ -1,1 +1,19 @@
+This project uses machine learning to predict numerical outcomes based on given input data.
 
+Two regression models were implemented: Random Forest Regressor and K-Nearest Neighbors Regressor.
+
+Random Forest is an ensemble algorithm that builds multiple decision trees and combines their results for better performance.
+
+It helps reduce overfitting and increases accuracy by aggregating the results of different trees.
+
+K-Nearest Neighbors (K-NN) predicts values by averaging the outputs of the closest data points in the training set.
+
+Both models were trained using the training data and evaluated on test data.
+
+The models were assessed using RMSE (Root Mean Squared Error), MAE (Mean Absolute Error), and R² Score.
+
+These metrics help understand how well the model predicts and how far off it is from the actual values.
+
+The goal is to find the model that performs best in predicting the target variable with minimum error.
+
+This approach supports better data-driven decision-making by learning from historical patterns.
