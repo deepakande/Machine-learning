@@ -1,1 +1,6 @@
+Column transformation, also known as feature transformation or data transformation,
+It is a crucial step in data preprocessing for machine learning and data analysis. 
 
+Some common types of column transformations include:
+Scaling: Standardization (mean=0, std=1) or normalization (min=0, max=1)
+Encoding categorical variables: Converts categorical variables into numerical representations
